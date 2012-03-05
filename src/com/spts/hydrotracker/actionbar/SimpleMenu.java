@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.spts.hydrotracker;
+package com.spts.hydrotracker.actionbar;
 
 import android.content.ComponentName;
 import android.content.Context;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.spts.hydrotracker;
+package com.spts.hydrotracker.actionbar;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -22,6 +22,8 @@ import java.util.Set;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
+
+import com.spts.hydrotracker.R;
 
 import android.app.Activity;
 import android.content.Context;

@@ -14,7 +14,14 @@
  * limitations under the License.
  */
 
-package com.spts.hydrotracker;
+package com.spts.hydrotracker.main;
+
+import com.spts.hydrotracker.R;
+import com.spts.hydrotracker.R.id;
+import com.spts.hydrotracker.R.layout;
+import com.spts.hydrotracker.R.menu;
+import com.spts.hydrotracker.R.string;
+import com.spts.hydrotracker.actionbar.ActionBarActivity;
 
 import android.os.Bundle;
 import android.view.Menu;
