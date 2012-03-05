@@ -16,13 +16,6 @@
 
 package com.spts.hydrotracker.main;
 
-import com.spts.hydrotracker.R;
-import com.spts.hydrotracker.R.id;
-import com.spts.hydrotracker.R.layout;
-import com.spts.hydrotracker.R.menu;
-import com.spts.hydrotracker.R.string;
-import com.spts.hydrotracker.actionbar.ActionBarActivity;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -30,13 +23,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.spts.hydrotracker.R;
+import com.spts.hydrotracker.actionbar.ActionBarActivity;
+
 public class HydroTrackerActivity extends ActionBarActivity {
     private boolean mAlternateTitle = false;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
         findViewById(R.id.toggle_title).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
